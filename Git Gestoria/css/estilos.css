@@ -1,0 +1,77 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    color: fuchsia;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+header, nav, section, footer {
+    background-color: gold;
+    text-align: center;
+    border-image: auto;
+    font-size: 30px;
+    color: rgb(211, 16, 201);
+    image-rendering: auto;
+    image-resolution: auto;
+    padding: 20px;
+    
+}
+h1{
+    font-size: 60px;
+    color: blueviolet;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h3{
+    font-size: 45px;
+    font-style: oblique;
+    color: rgb(214, 63, 17);
+    text-align: center;
+}
+
+.about{
+    color: rgb(56, 8, 100);
+}
+div{
+    text-align: center;
+    font-size: xx-large;
+    color: hotpink;
+    background-color: lightsalmon;
+
+}
+#Card{
+    width: 50px;
+    border: 1px solid #d21e72;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+}
+#tarjeta h2{
+    font-size: 36px;
+}
+#tarjeta h4{
+    font-size: 15px;
+    color: blue;
+    background-color: blueviolet;
+}
+.mediano{
+    font-size: 36px;
+    color: #d21e72;
+}
+.about{
+    font-family: 'Ballet', cursive;
+    color: mediumvioletred;
+    font-size: 40px;
+    
+}
+
+
+    
+
+
+/* Estilos específicos para cada página */
+/* Define estilos de diseño responsivo utilizando Flexbox o Grid */

@@ -1,0 +1,35 @@
+.Contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    
+
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    background-color: coral;
+    color: beige;
+}
+.Absoluta{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#Card{
+    border: 1px inset; color: black;
+    margin: 10px;
+    padding: 5px;
+    width: 270px;
+    mask-position: 7px;
+    text-align: center;
+    border-radius: 5px;
+    font: bold;
+    
+}
