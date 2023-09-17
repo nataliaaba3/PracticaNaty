@@ -1,18 +1,18 @@
 /* Estilos globales */
 body {
     font-family: Arial, sans-serif;
-    color: fuchsia;
+    color: orangered;
     align-items: center;
     margin: 20px;
     padding: auto;
 }
 
 header, nav, section, footer {
-    background-color: gold;
+    background-color: darkorchid;
     text-align: center;
     border-image: auto;
     font-size: 30px;
-    color: rgb(211, 16, 201);
+    color: lightcoral;
     image-rendering: auto;
     image-resolution: auto;
     padding: 20px;
@@ -20,32 +20,32 @@ header, nav, section, footer {
 }
 h1{
     font-size: 60px;
-    color: blueviolet;
+    color: greenyellow;
     text-align: center;
-    background-color: antiquewhite;
+    
 }
 
 h3{
     font-size: 45px;
     font-style: oblique;
-    color: rgb(214, 63, 17);
+    color: turquoise;
     text-align: center;
 }
 
 .about{
-    color: rgb(56, 8, 100);
+    color: goldenrod;
 }
 div{
     text-align: center;
     font-size: xx-large;
     color: hotpink;
-    background-color: lightsalmon;
+    background-color: floralwhite;
     
 
 }
 #Card{
     width: 50px;
-    border: 1px solid hsl(332, 75%, 47%);
+    border: 1px solid hsl(187, 82%, 42%);
     border-radius: 10PX;
 }
 img{
@@ -56,17 +56,17 @@ img{
 }
 #tarjeta h4{
     font-size: 15px;
-    color: blue;
+    color: magenta;
     background-color: blueviolet;
 }
 .mediano{
     font-size: 36px;
-    color: #d21e72;
+    color: tomato;
 }
 .about{
     font-family: 'Ballet', cursive;
-    color: mediumvioletred;
-    font-size: 40px;
+    color: gold;
+    font-size: 56px;
     
 }
 .image1{
