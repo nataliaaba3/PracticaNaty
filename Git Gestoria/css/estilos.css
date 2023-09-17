@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     color: fuchsia;
     align-items: center;
-    margin: 30px;
-    padding: 10px;
+    margin: 20px;
+    padding: auto;
 }
 
 header, nav, section, footer {
@@ -40,15 +40,16 @@ div{
     font-size: xx-large;
     color: hotpink;
     background-color: lightsalmon;
+    
 
 }
 #Card{
     width: 50px;
-    border: 1px solid #d21e72;
-    border-radius: 15px;
+    border: 1px solid hsl(332, 75%, 47%);
+    border-radius: 10PX;
 }
 img{
-    width: 100%;
+    width: 965px; text-align: center; height: auto;
 }
 #tarjeta h2{
     font-size: 36px;
@@ -68,8 +69,20 @@ img{
     font-size: 40px;
     
 }
+.image1{
+    width: 800px;
+    height: 600px;
+    margin: 40px;
+}
+.contenedor{
+    display: flex;
+    /* grid-template-columns: auto auto 100px;*/
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 100px 100px auto;
+    background-color: aquamarine;
+    gap: 1500px;
 
-
+}
     
 
 
