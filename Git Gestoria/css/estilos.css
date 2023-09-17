@@ -75,11 +75,12 @@ img{
     margin: 40px;
 }
 .contenedor{
-    display: flex;
+    display: flexbox;
     /* grid-template-columns: auto auto 100px;*/
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 10px auto auto auto auto;
     grid-template-rows: 100px 100px auto;
     background-color: aquamarine;
+    margin: 1px;
     gap: 1500px;
 
 }
