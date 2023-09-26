@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     color: darkorange;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
     padding: auto;
 }
 
@@ -92,7 +92,7 @@ img{
     margin: 40px;
 }
 .contenedor{
-    display: flexbox;
+    display:grid;
     /* grid-template-columns: auto auto 100px;*/
     grid-template-columns: 10px auto auto auto auto;
     grid-template-rows: 100px 100px auto;
@@ -155,3 +155,10 @@ Con aling-self podemos posicionar solo un elemento hijo, generando así diferent
 .izquierda{background: #900C3F}
 .derecha{background: #C70039}
 .footer{background: #DAF7A6; color: salmon; font-size: 36px;}
+
+.image2 {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    gap: 10px; /* Espacio entre elementos */
+    padding: 10px;
+}
