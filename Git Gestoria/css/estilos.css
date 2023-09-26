@@ -108,11 +108,11 @@ img{
 /* Define estilos de diseño responsivo utilizando Flexbox o Grid */
 
 .padre{
-    display: flex;
+    display: grid;
     flex-direction: row;
     flex-wrap: wrap;
     
-    padding: 10px;
+    padding: 1px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
