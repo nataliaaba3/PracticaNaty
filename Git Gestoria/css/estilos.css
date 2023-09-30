@@ -230,4 +230,19 @@ Con aling-self podemos posicionar solo un elemento hijo, generando así diferent
 .articulo{background: #FFC300}
 .izquierda{background: #900C3F}
 .derecha{background: #C70039}
-.footer{background: #DAF7A6}
+.footer{background: blueviolet;
+
+.navimagen {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+}
+
+#tel {
+    /* display: inline-block; */
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
